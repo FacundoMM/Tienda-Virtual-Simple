@@ -1,0 +1,98 @@
+body {
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+    
+.gradient-bg {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+    
+.card-shadow {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+    
+.btn-primary {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    transition: all 0.3s ease;
+}
+    
+.btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+}
+    
+.product-card {
+    transition: all 0.3s ease;
+}
+    
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+    
+.category-chip {
+    transition: all 0.2s ease;
+}
+    
+.category-chip:hover, .category-chip.active {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+}
+    
+.toast {
+    animation: slideIn 0.3s ease;
+}
+    
+@keyframes slideIn {
+    from { transform: translateY(-100%); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+    
+.modal-overlay {
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(4px);
+}
+    
+.step-indicator {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+    
+.whatsapp-btn {
+    background: #25D366;
+}
+    
+.whatsapp-btn:hover {
+    background: #128C7E;
+}
+    
+.admin-panel {
+    background: linear-gradient(180deg, #f8fafc 0%, #e2e8f0 100%);
+}
+    
+input:focus, textarea:focus, select:focus {
+    outline: none;
+    /*ring: 2px;
+    ring-color: #667eea;*/
+}
+    
+.loading-spinner {
+    border: 3px solid #f3f3f3;
+    border-top: 3px solid #667eea;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    animation: spin 1s linear infinite;
+}
+    
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+@view-transition { navigation: auto; }
