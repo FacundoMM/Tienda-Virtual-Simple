@@ -97,6 +97,9 @@ async function initApp() {
       }
     }
   }
+  if (!localStorage.getItem("LOCAL_PRODUCTS_DB")) {
+   await addSampleProducts();
+  }
 
   // Load cart from session
   const savedCart = sessionStorage.getItem('cart');
@@ -664,4 +667,5 @@ async function confirmDelete() {
 function formatNumber(num) {
   return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, '.');
 }
+
 
