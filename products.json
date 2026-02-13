@@ -1,0 +1,162 @@
+[
+  {
+    "id": "1",
+    "image": "🍞",
+    "name": "Pan Francés",
+    "description": "Pan fresco del día (6 unidades)",
+    "price": 5000,
+    "category": "Alimentos",
+    "active": true,
+    "createdAt": "new Date().toISOString()"
+  },
+  {
+    "id": "2",
+    "image": "🥛",
+    "name": "Leche Entera",
+    "description": "Leche entera 1 litro",
+    "price": 8500,
+    "category": "Bebidas",
+    "active": true,
+    "createdAt": "new Date().toISOString()"
+  },
+  {
+    "id": "3",
+    "image": "🧀",
+    "name": "Queso Paraguayo",
+    "description": "Queso artesanal 500g",
+    "price": 12000,
+    "category": "Alimentos",
+    "active": true,
+    "createdAt": "new Date().toISOString()"
+  },
+  {
+    "id": "4",
+    "image": "🥤",
+    "name": "Coca Cola 2L",
+    "description": "Gaseosa Coca Cola 2 litros",
+    "price": 9500,
+    "category": "Bebidas",
+    "active": true,
+    "createdAt": "new Date().toISOString()"
+  },
+  {
+    "id": "5",
+    "image": "🍚",
+    "name": "Arroz Blanco",
+    "description": "Arroz blanco tipo 1, 1kg",
+    "price": 7000,
+    "category": "Alimentos",
+    "active": true,
+    "createdAt": "new Date().toISOString()"
+  },
+  {
+    "id": "6",
+    "image": "🧹",
+    "name": "Escoba",
+    "description": "Escoba de cerda sintética",
+    "price": 15000,
+    "category": "Limpieza",
+    "active": true,
+    "createdAt": "new Date().toISOString()"
+  },
+  {
+    "id": "7",
+    "image": "🧼",
+    "name": "Jabón Líquido",
+    "description": "Jabón líquido para manos 500ml",
+    "price": 12000,
+    "category": "Limpieza",
+    "active": true,
+    "createdAt": "new Date().toISOString()"
+  },
+  {
+    "id": "8",
+    "image": "🍝",
+    "name": "Fideos",
+    "description": "Fideos secos 500g",
+    "price": 6500,
+    "category": "Alimentos",
+    "active": true,
+    "createdAt": "new Date().toISOString()"
+  },
+  {
+    "id": "9",
+    "image": "☕",
+    "name": "Café Molido",
+    "description": "Café molido 250g",
+    "price": 18000,
+    "category": "Bebidas",
+    "active": true,
+    "createdAt": "new Date().toISOString()"
+  },
+  {
+    "id": "10",
+    "image": "🥫",
+    "name": "Aceite de Girasol",
+    "description": "Aceite vegetal 900ml",
+    "price": 14000,
+    "category": "Alimentos",
+    "active": true,
+    "createdAt": "new Date().toISOString()"
+  },
+  {
+    "id": "11",
+    "image": "🧴",
+    "name": "Detergente",
+    "description": "Detergente líquido 1L",
+    "price": 16000,
+    "category": "Limpieza",
+    "active": true,
+    "createdAt": "new Date().toISOString()"
+  },
+  {
+    "id": "12",
+    "image": "🍳",
+    "name": "Huevos",
+    "description": "Docena de huevos frescos",
+    "price": 10000,
+    "category": "Alimentos",
+    "active": true,
+    "createdAt": "new Date().toISOString()"
+  },
+  {
+    "id": "13",
+    "image": "🧻",
+    "name": "Papel Higiénico",
+    "description": "Papel higiénico paquete x4",
+    "price": 11000,
+    "category": "Bazar",
+    "active": true,
+    "createdAt": "new Date().toISOString()"
+  },
+  {
+    "id": "14",
+    "image": "🍅",
+    "name": "Salsa de Tomate",
+    "description": "Salsa de tomate 340g",
+    "price": 4500,
+    "category": "Alimentos",
+    "active": true,
+    "createdAt": "new Date().toISOString()"
+  },
+  {
+    "id": "15",
+    "image": "🧽",
+    "name": "Esponja",
+    "description": "Esponja para lavar platos x3",
+    "price": 5000,
+    "category": "Limpieza",
+    "active": true,
+    "createdAt": "new Date().toISOString()"
+  },
+  {
+    "id": "16",
+    "image": "🍷",
+    "name": "Jugo de Naranja",
+    "description": "Jugo natural 1 litro",
+    "price": 7500,
+    "category": "Bebidas",
+    "active": true,
+    "createdAt": "new Date().toISOString()"
+  }
+]
